@@ -166,16 +166,17 @@ body {
   align-items: center;
   font-family: Open Sans, sans-serif;
   font-size: 2em;
+  margin-right: 5px;
 }
 .navbar .options .items,
 .navbar .options .selectors,
 .navbar .options .stores {
   display: flex;
-  height: 3em;
+  /* height: 3em; */
 }
 .navbar .options .selectors {
   display: flex;
-  height: 3em;
+  /* height: 3em; */
   /* margin: 0 0.5em; */
 }
 .navbar .options .selectors .stores .dropDown {
@@ -188,7 +189,7 @@ body {
 
 .navbar .options .search {
   display: flex;
-  height: 3.5em;
+  /* height: 3.5em; */
   margin: 0 1.5em;
 }
 .navbar .options .search input {
@@ -207,7 +208,7 @@ body {
   background: #2a8b00
     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NTc3MiwgMjAxNC8wMS8xMy0xOTo0NDowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjEyOUI1NEZCMzdGNzExRTc5QTI3RENGNjZDOTk2MjIzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjEyOUI1NEZDMzdGNzExRTc5QTI3RENGNjZDOTk2MjIzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTI5QjU0RjkzN0Y3MTFFNzlBMjdEQ0Y2NkM5OTYyMjMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTI5QjU0RkEzN0Y3MTFFNzlBMjdEQ0Y2NkM5OTYyMjMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz74Tq3oAAABDklEQVR42uyX4Q2DIBCF1XQARnCDOoIjMAIjdISO4Ah2g67QDRiBEdiAQnIkF6pFUKhN7iXvjxzhA71naI0xzZnUNScTAREQAZXWJXNeD3ZS4GPkgjHB3FqZTykYa/Y6pXg2cc21gG5oURmcBodnXvfSQMxaIxi2UveEGv2l5hAggXbfR8C9RC5Qt7GjnF6RbtJQg+f8PIdkzWBkG2rGGkB+19fIggPU7DupjR+bQh00LIz3qPVVjRwaUAc5qMl6BE8oFnwOsRpJzYOFQ2l0SjIXKnUCgxOQQXJP8NrCRGelgVL/eclQJYB2QZUCWoI67NeRK2H9SM2ltsLN1YHNZwKiWwcBERAB/RXQW4ABAK0mbQbQddx6AAAAAElFTkSuQmCC)
     50% no-repeat;
-  height: 3.3em;
+  /* height: 3.3em; */
   width: 3.5em;
 }
 .button {
@@ -234,6 +235,8 @@ h3 {
 h3 {
   font-size: 1.25rem;
   word-wrap: break-word;
+  max-width: 80%;
+  margin: 0.25em auto;
 }
 h4 {
   font-family: Open Sans, sans-serif;
@@ -247,8 +250,9 @@ select {
   height: 2rem;
 }
 .games {
-  margin-top: 4rem;
   text-align: center;
+  max-width: 1500px;
+  margin: 5% auto;
 }
 .games .game {
   -webkit-transform: perspective(1px) translateZ(0);
@@ -295,7 +299,7 @@ select {
 }
 .games .game .image-container {
   height: 120px;
-  margin: 0.5rem;
+  margin: 0.75rem;
   max-height: 30%;
   max-width: 95%;
   overflow: hidden;
@@ -372,7 +376,7 @@ select {
   }
 
   .games {
-    margin-top: 12em;
+    margin-top: 15em;
   }
   .games h1 {
     font-size: 3em;
@@ -395,7 +399,7 @@ select {
     align-items: center;
     width: 90%;
     margin: 0.5em;
-    font-size: 0.75em;
+    font-size: 0.9em;
     flex-direction: row-reverse;
   }
 
@@ -403,25 +407,21 @@ select {
     width: 90%;
   }
   .navbar .options .search input {
-    height: 1.75em;
     border: solid 1px #999;
     width: 85%;
   }
   .navbar .options .search #btnSearch {
-    height: 2.9em;
     width: 15%;
   }
   .navbar .dropDown {
     padding: 0 0.25rem;
-    height: 1.5rem;
     font-size: 0.8rem;
     margin-left: 0.25rem;
   }
-
-  .navbar .options .selectors .stores,
-  .navbar .options .selectors .items {
-    /* width: 46%; */
-    margin: 0.5em;
+}
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+  .games {
+    margin-top: 10em;
   }
 }
 
